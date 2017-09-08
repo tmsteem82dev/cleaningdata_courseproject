@@ -4,6 +4,7 @@ Find here descriptions of variables, data and any transformations peformed to cl
 
 ## Usage
 __Prerequisites__  
+Unzip the data archive to a ./Data folder in the working directory.
 The run_analysis.R scripts expects the Samsung data in "./Data/UCI HAR Dataset". 
 Train data should be put in: "./Data/UCI HAR Dataset/train"
 Test data should be put in: "./Data/UCI HAR Dataset/test"
