@@ -59,11 +59,16 @@ averagedGroups = aggregate(data.complete.filtered[,1:66], list(data.complete.fil
 #set subject and activity column names again for new data frame
 names(averagedGroups)[1:2] = c("subject", "activity")
 
+unique(averagedGroups$activity)
 
-# simple plot to look at part of the data
-averagedGroups$subject = as.factor(averagedGroups$subject)
-averagedGroups$activity = as.factor(averagedGroups$activity)
-averagedGroups %>% ggplot(aes(`tBodyAcc-mean()-X`, `tBodyAcc-mean()-Y`, color=subject)) + 
-  geom_point() +
-  facet_grid(.~activity)
+#save new data set 
+write.table(averagedGroups, "averagedGroups.txt", row.names = FALSE)
+
+# # simple plot to look at part of the data
+# averagedGroups$subject = as.factor(averagedGroups$subject)
+# averagedGroups$activity = as.factor(averagedGroups$activity)
+# averagedGroups %>% ggplot(aes(`tBodyAcc-mean()-X`, `tBodyAcc-mean()-Y`, color=subject)) + 
+#   geom_point() +
+#   facet_grid(.~activity)
+
 

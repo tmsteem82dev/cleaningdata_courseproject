@@ -2,6 +2,16 @@
 This is the code book for the data cleaning coursera project.
 Find here descriptions of variables, data and any transformations peformed to clean up the data.
 
+## Usage
+__Prerequisites__  
+The run_analysis.R scripts expects the Samsung data in "./Data/UCI HAR Dataset". 
+Train data should be put in: "./Data/UCI HAR Dataset/train"
+Test data should be put in: "./Data/UCI HAR Dataset/test"
+Feature, Subject and Activity information files should be put in "./Data/UCI HAR Dataset".
+__Run__
+If all conditions are met, run "run_analysis.R" which should produce a file "averagedGroups.txt" in the working directory.
+This file containes the new tidy data set with averages for the groups.
+
 ## Data
 X_train.txt: Measurements train data.  
 Y_train.txt: Activity train data. Numbers represent activities.  
