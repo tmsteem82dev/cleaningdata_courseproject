@@ -3,13 +3,13 @@ This is the code book for the data cleaning coursera project.
 Find here descriptions of variables, data and any transformations peformed to clean up the data.
 
 ## Data
-X_train.txt: Measurements train data.
-Y_train.txt: Activity train data. Numbers represent activities.
-subject_train.txt: Subject number labels for the training set. 
-X_test.txt: Measurements test data.
-Y_test.txt: Activity test data. Numbers represent activities.
-subject_test.txt: Subject number labels for the test set.
-features.txt: names for all the columns in the measurement data.
+X_train.txt: Measurements train data.  
+Y_train.txt: Activity train data. Numbers represent activities.  
+subject_train.txt: Subject number labels for the training set.   
+X_test.txt: Measurements test data.  
+Y_test.txt: Activity test data. Numbers represent activities.  
+subject_test.txt: Subject number labels for the test set.  
+features.txt: names for all the columns in the measurement data.  
 
 ## Variables
 root_path: the path to the data root.
